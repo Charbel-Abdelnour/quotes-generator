@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #d4d4d4;
+}
+.container{
+    border: 1px solid black;
+    width: 650px;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background:#303847;
+    box-shadow:  34px 34px 68px rgba(32, 165, 112, 0.4),
+             -34px -34px 68px  rgba(32, 165, 112, 0.4); 
+}
+.container p{
+    color: #d4d4d4;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Jost', sans-serif;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+.Quotes{
+    color: #ffffff;
+    font-family: 'EB Garamond', serif;
+    font-size: 4vh;
+    text-align: center;
+}
+.Auther{
+    color: #ffffff;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+.Buton{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.btn{
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .btn:hover {
+    background-color: #5e5e5e;
+    box-shadow: 0px 15px 20px rgba(32, 165, 112, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+@media screen and (max-width: 500px){
+    .container{
+        border: 1px solid black;
+        width: 300px;
+        height: auto;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+        background:#303847;
+        box-shadow:  34px 34px 68px rgba(53, 173, 69, 0.4),
+                 -34px -34px 68px  rgba(15, 224, 196, 0.4); 
+}
+}
